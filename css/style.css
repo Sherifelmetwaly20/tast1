@@ -1,0 +1,224 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation-name: BODY;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes BODY {
+    0% {
+        background-color: #5e5656;
+    }
+
+    100% {
+        background-color: #595353;
+    }
+}
+
+div {
+    width: 240px;
+    height: 180px;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px 0;
+    border-radius: 20px;
+    position: relative;
+    animation-duration: 3s;
+    /* animation-timing-function: linear; */
+}
+
+
+.left {
+    margin-left: auto;
+    animation-name: LE;
+}
+
+.right {
+    animation-name: RI;
+}
+
+.left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -66%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 90px 80px;
+    border-color: transparent #630000 transparent transparent;
+}
+
+.right::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 90px 80px;
+    border-color: transparent transparent transparent #630000;
+}
+
+.div1 {
+   
+    animation-name: div1r;
+}
+
+@keyframes div1r {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: 1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
+
+.div2 {
+   
+    animation-name: div2l;
+    animation-delay: 3s;
+}
+
+@keyframes div2l {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: -1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
+
+.div3 {
+   
+    animation-name: div3r;
+    animation-delay: 6s;
+}
+
+@keyframes div3r {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: 1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
+
+.div4 {
+
+    animation-name: div4l;
+    animation-delay: 9s;
+}
+
+@keyframes div4l {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: -1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
+
+.div5 {
+
+    animation-name: div5r;
+    animation-delay: 12s;
+}
+
+@keyframes div5r {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: 1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
+
+.div6 {
+   
+    animation-name: div6l;
+    animation-delay: 15s;
+}
+
+@keyframes div6l {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: -1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
+
+.div7 {
+    
+    animation-name: div7r;
+    animation-delay: 18s;
+}
+
+@keyframes div7r {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: 1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
+
+.div8 {
+
+    animation-name: div8l;
+    animation-delay: 21s;
+}
+
+@keyframes div8l {
+    0% {
+        background-color: #000000;
+        left: 0;
+        box-shadow: 0px 0px 20px 10px #000000;
+    }
+
+    100% {
+        background-color: #ffffff;
+        left: -1281px;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+}
